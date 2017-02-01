@@ -1,1 +1,0 @@
-# Louisville-Resist.github.io
