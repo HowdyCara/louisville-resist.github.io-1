@@ -1,0 +1,11 @@
+<h2>Articles</h2>
+<div class="articles row">
+  {{#each this}}
+  <div class="col-xs-12">
+    <h3><a href="{{url}}" target="_blank">{{name}}</a></h3>
+    <em>{{dateTime}}</em>  |  <strong>{{#if author}}{{author}} - {{/if}}{{source}}</strong>
+    <hr>
+    <br/>
+  </div>
+  {{/each}}
+</div>

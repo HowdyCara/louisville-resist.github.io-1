@@ -1,0 +1,12 @@
+<h2>Events</h2>
+<div class="events row">
+  {{#each this}}
+  <div class="col-sm-3">
+    <h3>{{name}}</h3>
+    <strong>Organizer: </strong> {{organizer}}<br/>
+    <strong>Date: </strong> <em>{{date}}</em><br/>
+    {{#if time}}<strong>Time: </strong> <em>{{time}}</em><br/>{{/if}}
+    <a class="btn btn-primary" href="{{eventPage}}" target="_blank">event page</a>
+  </div>
+  {{/each}}
+</div>

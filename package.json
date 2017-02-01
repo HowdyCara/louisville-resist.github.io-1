@@ -1,0 +1,23 @@
+{
+  "name": "louisville-resist",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run build-articles && npm run build-events && npm run build-organizations && npm run build-social-media",
+    "build-articles": "node build-articles.js",
+    "build-events": "node build-events.js",
+    "build-organizations": "node build-organizations.js",
+    "build-social-media": "node build-social-media.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Louisville-Resist/Louisville-Resist.github.io.git"
+  },
+  "author": "Alex Bezuska <abezuska@gmail.com> (http://alexbezuska.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Louisville-Resist/Louisville-Resist.github.io/issues"
+  },
+  "homepage": "https://github.com/Louisville-Resist/Louisville-Resist.github.io#readme"
+}

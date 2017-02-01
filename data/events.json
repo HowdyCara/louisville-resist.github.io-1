@@ -1,0 +1,30 @@
+[
+  {
+	"name": "10 Actions in 100 Days Postcard Writing Evening",
+	"eventPage": "https://www.facebook.com/events/1948114535411771/?notif_t=plan_user_invited&notif_id=1485973349694934",
+	"date": "February 1, 2017",
+	"organizer": "Lindsey Jones, Kyle Edward, Abby Terranova, Margaret Travis"
+},
+{
+	"tags": ["#ResistTrumpTuesdays"],
+	"name": "No Ban! No Wall! Mitch McConnell, take our call!",
+	"organizer": "Indivisible KY",
+	"eventPage": "http://indivisibleky.org/index.php/2017/01/28/sign-up-for-tuesday-rally-get-ready/",
+	"date": "January 31, 2017",
+  "time": "12pm"
+},
+{
+	"name": "Rally for American Values",
+	"tags": ["tag1"],
+	"eventPage": "https://www.facebook.com/events/155175141649937/",
+	"date": "January 30, 2017",
+  "time": "6pm",
+	"organizer": "Mayor Greg Fischer"
+},
+{
+	"name": "The Rally To Move Forward",
+	"eventPage": "https://www.facebook.com/events/1132369423550990/?active_tab=about",
+	"date": "January 21, 2017",
+	"organizer": "The RALLY to Move Forward - Louisville, KY"
+}
+]

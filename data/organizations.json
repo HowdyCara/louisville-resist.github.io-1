@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Louisville BLM",
+    "description": "Black Lives Matter - Louisville",
+    "website": "http://blackliveslouisville.org/",
+    "tags": [
+      "#blacklivesmatter"
+    ]
+  },
+  {
+    "name": "Louisville SURJ",
+    "description": "Showing Up for Racial Justice",
+    "website": "https://www.facebook.com/SURJLouisville/",
+    "tags": [
+      "#surj"
+    ]
+  },
+  {
+    "name": "Indivisible KY",
+    "description": "",
+    "website": "http://indivisibleky.org/",
+    "tags": [
+      "#indivisibleky"
+    ]
+  }
+]
