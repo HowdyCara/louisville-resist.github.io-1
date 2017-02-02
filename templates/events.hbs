@@ -1,12 +1,58 @@
+<style>
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.paddingBlock {
+	padding: 20px 0;
+}
+
+.eqWrap {
+	display: flex;
+}
+
+.eq {
+  border-radius: 8px;
+	padding: 10px;
+  background: lightblue;
+  color: white;
+}
+
+.eq a{
+  color: white;
+}
+
+.equalHMVWrap {
+	flex-wrap: wrap;
+}
+
+.equalHMV {
+	width: 32%;
+	margin: 1%;
+}
+
+.equalHMV:nth-of-type(3n) {
+	margin-right: 0;
+}
+
+.equalHMV:nth-of-type(3n+1) {
+	margin-left: 0;
+}
+</style>
+
 <h2>Events</h2>
-<div class="events row">
+<div class="paddingBlock">
+  <div class="equalHMVWrap eqWrap">
   {{#each this}}
-  <div class="col-sm-3">
-    <h3>{{name}}</h3>
-    <strong>Organizer: </strong> {{organizer}}<br/>
-    <strong>Date: </strong> <em>{{date}}</em><br/>
-    {{#if time}}<strong>Time: </strong> <em>{{time}}</em><br/>{{/if}}
-    <a class="btn btn-default btn-lg" href="{{eventPage}}" target="_blank">event page</a>
+  <div class="equalHMV eq">
+      <h3>{{name}}</h3>
+      <strong>Organizer: </strong> {{organizer}}<br/>
+      <strong>Date: </strong> <em>{{date}}</em><br/>
+      {{#if time}}<strong>Time: </strong> <em>{{time}}</em><br/>{{/if}}
+      <a class="btn btn-default btn-lg" href="{{eventPage}}" target="_blank">event page</a>
   </div>
   {{/each}}
+  </div>
 </div>
