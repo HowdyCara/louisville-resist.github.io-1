@@ -5,10 +5,10 @@
   "main": "index.js",
   "scripts": {
     "build": "npm run build-articles && npm run build-events && npm run build-organizations && npm run build-social-media",
-    "build-articles": "node build-articles.js",
-    "build-events": "node build-events.js",
-    "build-organizations": "node build-organizations.js",
-    "build-social-media": "node build-social-media.js"
+    "build-articles": "node build-scripts/build-articles.js",
+    "build-events": "node build-scripts/build-events.js",
+    "build-organizations": "node build-scripts/build-organizations.js",
+    "build-social-media": "node build-scripts/build-social-media.js"
   },
   "repository": {
     "type": "git",
