@@ -1,6 +1,6 @@
 # Louisville Resist
 
-This is a resource only for local Louisville activism centered around but never limited to these important issues:
+This is a resource only for local Louisville activism centered around, but never limited to, these important issues:
 
 * Ending Violence
 * Reproductive Rights
@@ -19,7 +19,7 @@ Linking to an article is not an endorsement or statement that we agree with the 
 ## How to help
 
 1. Participate in an event
-2. Call your representitives
+2. Call your representatives
 3. Submit content to this site
 
 
@@ -46,9 +46,9 @@ Make your change in `source/data/articles.json` and submit a pull request
 
 Make your change in `source/data/social-media.json` and submit a pull request
 
-#### To add to or edit pother site content such as representitives:
+#### To add to or edit other site content such as representatives:
 
-Make your change in `source/templates` (the template files are reasonably names) and submit a pull request
+Make your change in `source/templates` (the template files are reasonably named) and submit a pull request
 
 ## License
 MIT open source for all code
